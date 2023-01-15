@@ -11,7 +11,7 @@ crontab -r >/dev/null 2>&1
 	echo "0 3 * * * /sbin/reboot"
 ) | crontab -
 sleep2
-	   wget https://raw.githubusercontent.com/breno192/vpn/main/limpeza.sh
+	   wget https://raw.githubusercontent.com/breno192/portas/main/limpeza.sh
            sleep 2
            chmod 777 limpeza.sh
 	   sleep 1
@@ -27,7 +27,7 @@ sleep2
 
 
 
-             cd /bin/ && wget https://raw.githubusercontent.com/breno192/vpn/main/portas
+             cd /bin/ && wget https://raw.githubusercontent.com/breno192/portas/main/portas
              chmod 777 portas
              
 	     
